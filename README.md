@@ -3,6 +3,7 @@ A collection of Void Linux scripts and info for noobs
 
 ## How to download the repo
 Start by creating an organized set of directories for storing git projects:
+(Do not copy and paste the following lines one-by-one. Click the copy button.)
 ```bash
 cd ~ &&
 mkdir .git && cd .git &&
