@@ -13,14 +13,19 @@ sudo xbps-install -S python3-dbus
 
 ## Run script
 You should begin by opening and reading the script. This is always good practice, as one can never be sure of the safety of unknown internet/GitHub scripts.
-From here, you have two choices. You can either run each command in the script one by one by copy-and-pasting them into your terminal and hitting enter, or you could make the entire script executable with
+To do this, enter
 ```bash
-chmod +x /home/$USER/.git/clones/z-void-stuff/NetworkManager-setup/nmsetup.sh
+cd ~/.git/clones/z-void-stuff/NetworkManager-setup
 ```
-and run the whole thing with
 ```bash
-cd /home/$USER/.git/clones/z-void-stuff/NetworkManager-setup/
+cat nmsetup.sh | less
 ```
+From here, you have two choices. You can either run each command in the script one by one by copy-and-pasting them into your terminal and hitting enter for more error messages by opening a new terminal and using ctrl+shift+c and ctrl+shift+v,
+or you could make the entire script executable with
+```bash
+chmod +x nmsetup.sh
+```
+and run it with
 ```bash
 ./nmsetup.sh
 ```
