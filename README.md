@@ -13,3 +13,14 @@ Now that you are in the proper directory, you can clone the repo:
 ```bash
 git clone https://github.com/konfuzhon/z-void-stuff
 ```
+
+## How to update it
+After you've cloned a repo, it will not automatically update with new commits made
+to the owner's copy. Therefore, to keep this cloned repo up to date with the original,
+enter the following:
+```bash
+cd ~/.git/clones/z-void-stuff/
+```
+```bash
+git pull origin main
+```
