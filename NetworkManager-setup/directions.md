@@ -17,6 +17,13 @@ From here, you have two choices. You can either run each command in the script o
 ```bash
 chmod +x /home/$USER/.git/clones/z-void-stuff/NetworkManager-setup/nmsetup.sh
 ```
+and run the whole thing with
+```bash
+cd /home/$USER/.git/clones/z-void-stuff/NetworkManager-setup/
+```
+```bash
+./nmsetup.sh
+```
 
 ## Configuring NM
 Enter the following command. It will tell you which groups your user is in.
